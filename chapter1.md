@@ -43,7 +43,7 @@ This is an example exercise.
 
 ---
 
-## Introduction to Cross Validation
+## Validation Techniques
 
 ```yaml
 type: VideoExercise
