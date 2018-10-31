@@ -21,6 +21,22 @@ title: Data Scientist
 
 
 ---
+## Typical Modeling Procedur
+
+```yaml
+type: "FullSlide"
+key: "5402eaf741"
+```
+
+`@part1`
+![](https://github.com/kaseyriver11/datacamp_images/blob/master/Round_1.png)
+
+
+`@script`
+
+
+
+---
 ## Final Slide
 
 ```yaml
