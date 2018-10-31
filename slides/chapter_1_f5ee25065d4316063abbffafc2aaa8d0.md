@@ -3,7 +3,7 @@ title: Insert title here
 key: f5ee25065d4316063abbffafc2aaa8d0
 
 ---
-## K-Fold Cross Validation
+## Introduction to Cross Validation
 
 ```yaml
 type: "TitleSlide"
@@ -21,15 +21,37 @@ title: Data Scientist
 
 
 ---
-## Typical Modeling Procedur
+## Typical Modeling Procedure
 
 ```yaml
-type: "FullSlide"
-key: "5402eaf741"
+type: "TwoColumns"
+key: "6f285c2ff2"
 ```
 
 `@part1`
-![](https://github.com/kaseyriver11/datacamp_images/blob/master/Round_1.png)
+![](http://assets.datacamp.com/production/repositories/3927/datasets/d2c50685c17cd1e95eb3e36a135115178bb92819/Round_1.png)
+
+
+`@part2`
+```
+X_train, X_val, y_train, y_val =
+    train_test_split(X, y,
+                     test_size=0.2)
+
+rf = RandomForestClassifier(
+    n_estimators=50, max_depth=2)
+
+rf.fit(X_train, y_train)
+```
+
+
+```
+out_of_sample = rf.predict(X_test)
+score = accuracy_score(y_test, out_of_sample)
+print(score)
+```
+
+`Out[1]: 0.967`
 
 
 `@script`

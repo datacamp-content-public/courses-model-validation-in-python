@@ -43,7 +43,7 @@ This is an example exercise.
 
 ---
 
-## K-Fold Cross Validation
+## Introduction to Cross Validation
 
 ```yaml
 type: VideoExercise
