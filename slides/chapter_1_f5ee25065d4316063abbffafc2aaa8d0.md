@@ -108,7 +108,7 @@ splits = kf.split(X)
 
 
 ---
-## Analyzing the KFold Splits
+## Analyzing KFold Splits
 
 ```yaml
 type: "FullCodeSlide"
@@ -126,7 +126,7 @@ for train_index, test_index in splits:
     print(len(train_index), len(test_index))
 ``` {{1}}
 
-`Out[3]: 32 8 32 8 ...` {{1}}
+`Out[3]: 32 8 32 8 32 8 32 8 32 8` {{1}}
 
 ```
 print(train_index, test_index)
